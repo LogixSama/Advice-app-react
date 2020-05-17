@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+
 #root, html, body {
     margin: 0;
     padding: 0;
@@ -7,7 +9,7 @@
   
   .app {
     height: 100%;
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('./images/city.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('./images/waterfall.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -18,8 +20,8 @@
   
   .card {
     background: whitesmoke;
-    width: 40%;
-    height: 20%;
+    width: 60%;
+    height: 40%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -32,6 +34,8 @@
     display: flex;
     align-items: center;
     height: 582px;
+    font-family: 'Spartan', sans-serif;
+
   }
   
   .button {
