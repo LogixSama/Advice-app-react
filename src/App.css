@@ -1,40 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
-#root,html,body{
+#root, html, body {
     margin: 0;
     padding: 0;
-    height:100vh;
+    height: 100vh;
     box-sizing: border-box;
-}
-.app{
+  }
+  
+  .app {
     height: 100%;
-    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('./images/waterfall.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('./images/city.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-.card{
-    background-color: whitesmoke;
+    text-align: center;
+  }
+  
+  .card {
+    background: whitesmoke;
     width: 40%;
     height: 20%;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     border-radius: 25px;
-    box-shadow: 10px 10px;
     padding: 2%;
-
-}
-.heading{
+    box-shadow: 10px 10px;
+  }
+  
+  .heading {
     display: flex;
     align-items: center;
-    height: 580px;
-    font-family: 'Spartan', sans-serif;
-}
-.button {
+    height: 582px;
+  }
+  
+  .button {
     position: relative;
     outline: none;
     text-decoration: none;
